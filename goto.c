@@ -26,7 +26,8 @@ square_of_numb:
 
 	if (number <= 10) goto multiplication;
 	
-	else{
+	else if (number > 10) 
+	{
 		goto square_of_numb;
 	}
 	return 0;
